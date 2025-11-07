@@ -59,7 +59,7 @@
         }
 
         // Expose the function that MAUI will invoke from C#
-        window.testFunctionName = async function (contextArgString) {
+        window.testFunctionName = function (contextArgString) {
             try {
                 console.log("[testFunctionName] raw arg:", contextArgString);
 
